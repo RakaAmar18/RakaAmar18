@@ -89,8 +89,12 @@ Saya fokus mengembangkan **offline-first party games**, **tactile mobile apps**,
       <br/><sub><b>Node.js</b></sub>
     </td>
   </tr>
-  <!-- Row 3: Databases, Cloud & Tools -->
+  <!-- Row 3: Databases & Core Dev -->
   <tr>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=postgres" width="46" height="46" alt="PostgreSQL" />
+      <br/><sub><b>PostgreSQL</b></sub>
+    </td>
     <td align="center" width="12.5%">
       <img src="https://skillicons.dev/icons?i=mysql" width="46" height="46" alt="MySQL" />
       <br/><sub><b>MySQL</b></sub>
@@ -119,9 +123,40 @@ Saya fokus mengembangkan **offline-first party games**, **tactile mobile apps**,
       <img src="https://skillicons.dev/icons?i=vscode" width="46" height="46" alt="VS Code" />
       <br/><sub><b>VS Code</b></sub>
     </td>
+  </tr>
+  <!-- Row 4: Tools, Cloud & Design Platforms -->
+  <tr>
     <td align="center" width="12.5%">
       <img src="https://skillicons.dev/icons?i=postman" width="46" height="46" alt="Postman" />
       <br/><sub><b>Postman</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=linux" width="46" height="46" alt="Linux" />
+      <br/><sub><b>Linux</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=figma" width="46" height="46" alt="Figma" />
+      <br/><sub><b>Figma</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=gradle" width="46" height="46" alt="Gradle" />
+      <br/><sub><b>Gradle</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=npm" width="46" height="46" alt="npm" />
+      <br/><sub><b>npm</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=githubactions" width="46" height="46" alt="GitHub Actions" />
+      <br/><sub><b>Actions</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=vercel" width="46" height="46" alt="Vercel" />
+      <br/><sub><b>Vercel</b></sub>
+    </td>
+    <td align="center" width="12.5%">
+      <img src="https://skillicons.dev/icons?i=bootstrap" width="46" height="46" alt="Bootstrap" />
+      <br/><sub><b>Bootstrap</b></sub>
     </td>
   </tr>
 </table>
