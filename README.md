@@ -12,44 +12,36 @@ Saya membuat aplikasi mobile, antarmuka web, dan aplikasi desktop dengan Python.
 
 ## Karya pilihan
 
-### V-Class
+Tiga proyek yang mewakili fokus saya. Proyek lain ada di [katalog proyek ↗](PROJECTS.md).
 
-**Source private**: ringkasan produk.
+<table width="100%">
+  <tr>
+    <td>
+      <a href="PROJECTS.md#pendidikan"><img src="assets/projects/vclass.svg" width="100%" alt="V-Class: platform pendidikan" /></a>
+      <p><strong>Source private</strong> · Pendidikan · Web &amp; desktop</p>
+      <p>Materi, tugas, kuis, dan pengelolaan ujian untuk sekolah. Ekosistem pembelajaran digital dengan V-Class ExamHub untuk desktop.</p>
+      <a href="PROJECTS.md#pendidikan">Jelajahi proyek pendidikan ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="PROJECTS.md#komunitas"><img src="assets/projects/jaga-anabul.svg" width="100%" alt="Jaga Anabul: platform donasi hewan" /></a>
+      <p><strong>Source private</strong> · React · Laravel · PostgreSQL</p>
+      <p>Kampanye donasi untuk shelter dan komunitas penyelamat hewan. Menghubungkan donatur dengan pengelola organisasi.</p>
+      <a href="PROJECTS.md#komunitas">Jelajahi proyek komunitas ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="PROJECTS.md#game"><img src="assets/projects/siasat-kata.svg" width="100%" alt="Siasat Kata: Pesta Penyusup" /></a>
+      <p><strong>Source private</strong> · React Native · Expo · TypeScript</p>
+      <p>Game pesta deduksi sosial untuk Android. Satu ponsel, kata rahasia, dan diskusi untuk mencari penyusup.</p>
+      <a href="PROJECTS.md#game">Jelajahi proyek game ↗</a>
+    </td>
+  </tr>
+</table>
 
-Platform pembelajaran digital untuk sekolah: materi, tugas, kuis, dan pengelolaan ujian. Ekosistemnya mencakup aplikasi web serta V-Class ExamHub untuk desktop.
-
-<sub>Platform pendidikan · Web & desktop</sub>
-
-### Jaga Anabul
-
-**Source private**: ringkasan produk.
-
-Platform donasi dan pengelolaan kampanye untuk shelter serta komunitas penyelamat hewan, yang menghubungkan donatur dengan pengelola organisasi.
-
-<sub>React · Laravel · PostgreSQL</sub>
-
-### Siasat Kata: Pesta Penyusup
-
-**Source private**: yang ditampilkan di sini hanya ringkasan produk.
-
-Game pesta deduksi sosial untuk Android. Satu ponsel dipakai bergiliran untuk menerima kata rahasia, berdiskusi, dan mencari penyusup. Tampilan komik dan dukungan Bahasa Indonesia / English.
-
-<sub>React Native · Expo · TypeScript</sub>
-
-### [Portfolio](https://rakaamar.site/)
-Situs pribadi untuk memperkenalkan diri dan menampilkan proyek, dengan dukungan tema terang dan gelap.
-
-<sub>HTML · CSS · JavaScript</sub> · [Source publik ↗](https://github.com/RakaAmar18/Portfolio)
-
-### [StealthText](https://github.com/RakaAmar18/secretcode)
-Proyek web untuk enkripsi dan dekripsi teks melalui antarmuka sederhana.
-
-<sub>JavaScript · HTML · CSS</sub> · [Lihat proyek ↗](https://github.com/RakaAmar18/secretcode)
-
-### [Document Service System](https://github.com/RakaAmar18/Pembuatan-Surat-Berharga)
-Proyek aplikasi desktop bersama tim untuk mengelola permohonan dokumen, dashboard admin, dan proses pengiriman.
-
-<sub>Python · Tkinter · MySQL</sub> · [Lihat proyek ↗](https://github.com/RakaAmar18/Pembuatan-Surat-Berharga)
+**[Jelajahi katalog proyek →](PROJECTS.md)** · Pendidikan, komunitas, game, web, dan desktop.
 
 ## Alat & teknologi
 
