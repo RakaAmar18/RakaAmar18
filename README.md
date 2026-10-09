@@ -1,5 +1,5 @@
 <a href="https://rakaamar.site/">
-  <img src="assets/comic-cover.svg" width="100%" alt="Raka Amar — CodeByRakaStudio. Frontend, mobile, dan Python." />
+  <img src="assets/comic-cover.svg" width="100%" alt="Raka Amar (CodeByRakaStudio). Frontend, mobile, dan Python." />
 </a>
 
 # Halo, saya Raka.
@@ -14,7 +14,7 @@ Saya membuat aplikasi mobile, antarmuka web, dan aplikasi desktop dengan Python.
 
 ### V-Class
 
-**Source private** — ringkasan produk.
+**Source private**: ringkasan produk.
 
 Platform pembelajaran digital untuk sekolah: materi, tugas, kuis, dan pengelolaan ujian. Ekosistemnya mencakup aplikasi web serta V-Class ExamHub untuk desktop.
 
@@ -22,7 +22,7 @@ Platform pembelajaran digital untuk sekolah: materi, tugas, kuis, dan pengelolaa
 
 ### Jaga Anabul
 
-**Source private** — ringkasan produk.
+**Source private**: ringkasan produk.
 
 Platform donasi dan pengelolaan kampanye untuk shelter serta komunitas penyelamat hewan, yang menghubungkan donatur dengan pengelola organisasi.
 
@@ -30,7 +30,7 @@ Platform donasi dan pengelolaan kampanye untuk shelter serta komunitas penyelama
 
 ### Siasat Kata: Pesta Penyusup
 
-**Source private** — yang ditampilkan di sini hanya ringkasan produk.
+**Source private**: yang ditampilkan di sini hanya ringkasan produk.
 
 Game pesta deduksi sosial untuk Android. Satu ponsel dipakai bergiliran untuk menerima kata rahasia, berdiskusi, dan mencari penyusup. Tampilan komik dan dukungan Bahasa Indonesia / English.
 
