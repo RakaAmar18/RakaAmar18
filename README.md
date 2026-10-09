@@ -1,5 +1,5 @@
 <a href="https://rakaamar.site/">
-  <img src="assets/comic-header.svg" width="100%" alt="Raka Amar — CodeByRakaStudio. Frontend, mobile, dan Python." />
+  <img src="assets/comic-cover.svg" width="100%" alt="Raka Amar — CodeByRakaStudio. Frontend, mobile, dan Python." />
 </a>
 
 # Halo, saya Raka.
