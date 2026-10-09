@@ -1,0 +1,86 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="halftone-cyan" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="6" cy="6" r="4.5" fill="#00E5FF" fill-opacity="0.32"/>
+    </pattern>
+    <pattern id="halftone-yellow" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="4" fill="#FFE600" fill-opacity="0.45"/>
+    </pattern>
+    <clipPath id="circle-clip">
+      <circle cx="512" cy="512" r="472"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&amp;family=Comic+Neue:wght@700&amp;display=swap');
+    .title-font { font-family: 'Bangers', Impact, 'Arial Black', sans-serif; }
+    .label-font { font-family: 'Comic Neue', -apple-system, sans-serif; font-weight: 700; letter-spacing: 0.08em; }
+  </style>
+
+  <!-- Solid Outer Base / Ground Shadow -->
+  <circle cx="524" cy="524" r="480" fill="#0F172A"/>
+
+  <!-- Main Avatar Circle -->
+  <circle cx="512" cy="512" r="480" fill="#FFFDF0" stroke="#0F172A" stroke-width="24"/>
+
+  <!-- Clipped Background Artwork -->
+  <g clip-path="url(#circle-clip)">
+    <!-- Comic Sunburst Background Rays -->
+    <g transform="translate(512, 512)">
+      <path d="M0 0 L-250 -600 L-100 -600 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L50 -600 L200 -600 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L350 -500 L480 -380 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L550 -200 L600 -50 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L600 100 L550 250 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L450 400 L300 520 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L150 580 L-50 600 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L-200 550 L-350 450 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L-500 300 L-600 150 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L-600 0 L-550 -180 Z" fill="#FFE600" opacity="0.35"/>
+      <path d="M0 0 L-450 -350 L-320 -480 Z" fill="#FFE600" opacity="0.35"/>
+    </g>
+
+    <!-- Halftone Texture Overlay -->
+    <rect x="32" y="32" width="960" height="960" fill="url(#halftone-cyan)"/>
+
+    <!-- Dynamic Action Comic Starburst Behind Monogram -->
+    <g transform="translate(512, 512) scale(1.15)">
+      <path d="M 0 -280 L 70 -160 L 220 -240 L 160 -100 L 300 -60 L 180 50 L 280 180 L 120 160 L 140 300 L 0 200 L -140 300 L -120 160 L -280 180 L -180 50 L -300 -60 L -160 -100 L -220 -240 L -70 -160 Z"
+            fill="#0F172A" transform="translate(16, 16)"/>
+      <path d="M 0 -280 L 70 -160 L 220 -240 L 160 -100 L 300 -60 L 180 50 L 280 180 L 120 160 L 140 300 L 0 200 L -140 300 L -120 160 L -280 180 L -180 50 L -300 -60 L -160 -100 L -220 -240 L -70 -160 Z"
+            fill="#FF3D71" stroke="#0F172A" stroke-width="16"/>
+    </g>
+
+    <!-- Center Card Panel -->
+    <g transform="translate(512, 512)">
+      <!-- Panel Shadow -->
+      <rect x="-240" y="-180" width="480" height="360" rx="40" fill="#0F172A" transform="translate(14, 14)"/>
+      <!-- Panel Body -->
+      <rect x="-240" y="-180" width="480" height="360" rx="40" fill="#00E5FF" stroke="#0F172A" stroke-width="16"/>
+
+      <!-- Giant 3D Monogram "RA" -->
+      <!-- Black block shadow layer -->
+      <text x="0" y="80" class="title-font" font-size="260" fill="#0F172A" text-anchor="middle" transform="translate(16, 16)">RA</text>
+      <!-- Coral 3D extrusion layer -->
+      <text x="0" y="80" class="title-font" font-size="260" fill="#FF3D71" text-anchor="middle" transform="translate(8, 8)">RA</text>
+      <!-- Main yellow face layer with black ink border -->
+      <text x="0" y="80" class="title-font" font-size="260" fill="#FFE600" stroke="#0F172A" stroke-width="18" text-anchor="middle" paint-order="stroke fill">RA</text>
+
+      <!-- Comic Lightning Bolt Accent on Top -->
+      <g transform="translate(-15, -235) scale(1.6)">
+        <polygon points="10,0 35,0 15,35 40,35 0,80 15,45 -5,45" fill="#0F172A" transform="translate(4, 4)"/>
+        <polygon points="10,0 35,0 15,35 40,35 0,80 15,45 -5,45" fill="#FFE600" stroke="#0F172A" stroke-width="4"/>
+      </g>
+    </g>
+
+    <!-- Bottom Studio Label Pill -->
+    <g transform="translate(512, 790)">
+      <rect x="-190" y="-30" width="380" height="60" rx="30" fill="#0F172A" transform="translate(8, 8)"/>
+      <rect x="-190" y="-30" width="380" height="60" rx="30" fill="#FFE600" stroke="#0F172A" stroke-width="10"/>
+      <text x="0" y="11" class="label-font" font-size="24" fill="#0F172A" text-anchor="middle">CODEBYRAKASTUDIO</text>
+    </g>
+  </g>
+
+  <!-- Final Outer Inking Circle -->
+  <circle cx="512" cy="512" r="480" fill="none" stroke="#0F172A" stroke-width="24"/>
+</svg>

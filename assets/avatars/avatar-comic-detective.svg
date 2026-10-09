@@ -1,0 +1,93 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="halftone-cyan-2" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="5" cy="5" r="4" fill="#00E5FF" fill-opacity="0.35"/>
+    </pattern>
+    <clipPath id="circle-clip-2">
+      <circle cx="512" cy="512" r="472"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&amp;family=Comic+Neue:wght@700&amp;display=swap');
+    .title-font { font-family: 'Bangers', Impact, 'Arial Black', sans-serif; }
+    .mono-font { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 800; }
+  </style>
+
+  <!-- Ground Shadow -->
+  <circle cx="524" cy="524" r="480" fill="#0F172A"/>
+
+  <!-- Main Background: Vibrant Pop Comic Yellow -->
+  <circle cx="512" cy="512" r="480" fill="#FFE600" stroke="#0F172A" stroke-width="24"/>
+
+  <g clip-path="url(#circle-clip-2)">
+    <!-- Cyan Halftone Pattern -->
+    <rect x="32" y="32" width="960" height="960" fill="url(#halftone-cyan-2)"/>
+
+    <!-- Giant Action Comic Burst -->
+    <g transform="translate(512, 500) scale(1.2)">
+      <path d="M 0 -260 L 70 -150 L 220 -220 L 160 -90 L 290 -50 L 170 60 L 270 170 L 120 150 L 130 280 L 0 190 L -130 280 L -120 150 L -270 170 L -170 60 L -290 -50 L -160 -90 L -220 -220 L -70 -150 Z"
+            fill="#0F172A" transform="translate(16, 16)"/>
+      <path d="M 0 -260 L 70 -150 L 220 -220 L 160 -90 L 290 -50 L 170 60 L 270 170 L 120 150 L 130 280 L 0 190 L -130 280 L -120 150 L -270 170 L -170 60 L -290 -50 L -160 -90 L -220 -220 L -70 -150 Z"
+            fill="#FFFDF0" stroke="#0F172A" stroke-width="16"/>
+    </g>
+
+    <!-- Comic Undercover Detective Head & Shoulders -->
+    <g transform="translate(512, 510)">
+      <!-- High Collar / Trenchcoat -->
+      <path d="M -220 280 L -120 140 L 0 190 L 120 140 L 220 280 Z" fill="#0F172A" transform="translate(12, 12)"/>
+      <path d="M -220 280 L -120 140 L 0 190 L 120 140 L 220 280 Z" fill="#00E5FF" stroke="#0F172A" stroke-width="16"/>
+      <path d="M -60 165 L 0 250 L 60 165 Z" fill="#FF3D71" stroke="#0F172A" stroke-width="10"/>
+
+      <!-- Face Shadow & Outline -->
+      <ellipse cx="0" cy="40" rx="130" ry="140" fill="#0F172A" transform="translate(12, 12)"/>
+      <ellipse cx="0" cy="40" rx="130" ry="140" fill="#FFFDF0" stroke="#0F172A" stroke-width="16"/>
+
+      <!-- Sleek Comic Sunglasses with Code Glint -->
+      <g transform="translate(0, 30)">
+        <!-- Shadow -->
+        <rect x="-140" y="-35" width="280" height="70" rx="18" fill="#0F172A" transform="translate(10, 10)"/>
+        <!-- Glasses Frame -->
+        <rect x="-140" y="-35" width="280" height="70" rx="18" fill="#0F172A" stroke="#0F172A" stroke-width="12"/>
+        <!-- Left Lens -->
+        <rect x="-125" y="-23" width="115" height="46" rx="10" fill="#1E293B"/>
+        <!-- Right Lens -->
+        <rect x="10" y="-23" width="115" height="46" rx="10" fill="#1E293B"/>
+        <!-- Cyan Code Glint: < / > -->
+        <text x="-67" y="11" class="mono-font" font-size="34" fill="#00E5FF" text-anchor="middle">&lt;</text>
+        <text x="67" y="11" class="mono-font" font-size="34" fill="#00E5FF" text-anchor="middle">&gt;</text>
+      </g>
+
+      <!-- Classic Detective Fedora Hat -->
+      <g transform="translate(0, -60) rotate(-4)">
+        <!-- Hat Crown Shadow -->
+        <path d="M -130 -10 L -100 -160 L 0 -135 L 100 -160 L 130 -10 Z" fill="#0F172A" transform="translate(14, 14)"/>
+        <!-- Hat Crown -->
+        <path d="M -130 -10 L -100 -160 L 0 -135 L 100 -160 L 130 -10 Z" fill="#0F172A" stroke="#0F172A" stroke-width="16"/>
+        <!-- Hat Ribbon Band in Coral Pink -->
+        <path d="M -132 -10 L -120 -50 L 120 -50 L 132 -10 Z" fill="#FF3D71" stroke="#0F172A" stroke-width="8"/>
+        <!-- Fedora Brim Shadow -->
+        <ellipse cx="0" cy="-5" rx="210" ry="40" fill="#0F172A" transform="translate(12, 12)"/>
+        <!-- Fedora Brim -->
+        <ellipse cx="0" cy="-5" rx="210" ry="40" fill="#0F172A" stroke="#0F172A" stroke-width="14"/>
+      </g>
+    </g>
+
+    <!-- Top Badge Stamp: "DEV" -->
+    <g transform="translate(730, 250) rotate(12)">
+      <rect x="-65" y="-30" width="130" height="60" rx="10" fill="#0F172A" transform="translate(6, 6)"/>
+      <rect x="-65" y="-30" width="130" height="60" rx="10" fill="#FF3D71" stroke="#0F172A" stroke-width="8"/>
+      <text x="0" y="14" class="title-font" font-size="36" fill="#FFFFFF" text-anchor="middle">DEV</text>
+    </g>
+
+    <!-- Bottom Name Tag: "RAKA" -->
+    <g transform="translate(512, 800)">
+      <rect x="-160" y="-32" width="320" height="64" rx="14" fill="#0F172A" transform="translate(8, 8)"/>
+      <rect x="-160" y="-32" width="320" height="64" rx="14" fill="#00E5FF" stroke="#0F172A" stroke-width="10"/>
+      <text x="0" y="14" class="title-font" font-size="38" fill="#0F172A" text-anchor="middle">RAKA AMAR</text>
+    </g>
+  </g>
+
+  <!-- Final Outer Stroke -->
+  <circle cx="512" cy="512" r="480" fill="none" stroke="#0F172A" stroke-width="24"/>
+</svg>
