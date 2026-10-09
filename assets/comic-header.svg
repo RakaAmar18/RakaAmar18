@@ -1,0 +1,138 @@
+<svg width="100%" height="auto" viewBox="0 0 920 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Halftone dots pattern -->
+    <pattern id="halftone-cyan" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="2" cy="2" r="2.2" fill="#00E5FF" fill-opacity="0.22"/>
+    </pattern>
+    <pattern id="halftone-yellow" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2.0" fill="#FACC15" fill-opacity="0.30"/>
+    </pattern>
+    <!-- Comic Speedlines / hatching -->
+    <pattern id="comic-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#E2E8F0" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&amp;family=Comic+Neue:wght@700&amp;display=swap');
+    .comic-font { font-family: 'Bangers', Impact, 'Arial Black', -apple-system, sans-serif; letter-spacing: 0.05em; }
+    .comic-body { font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; }
+    .mono-label { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+  </style>
+
+  <!-- Ground Shadow for the whole comic card -->
+  <rect x="12" y="12" width="896" height="286" rx="18" fill="#0F172A"/>
+
+  <!-- Main Comic Card Container -->
+  <rect x="4" y="4" width="896" height="286" rx="18" fill="#FFFDF0" stroke="#0F172A" stroke-width="4"/>
+
+  <!-- Halftone Decorative Backgrounds -->
+  <rect x="4" y="4" width="360" height="286" rx="18" fill="url(#halftone-cyan)"/>
+  <rect x="580" y="4" width="320" height="170" rx="18" fill="url(#halftone-yellow)"/>
+
+  <!-- Top Left: Classic Comic Issue Corner Box -->
+  <g transform="translate(24, 20)">
+    <rect x="4" y="4" width="108" height="66" rx="4" fill="#0F172A"/>
+    <rect width="108" height="66" rx="4" fill="#FACC15" stroke="#0F172A" stroke-width="3"/>
+    <rect width="108" height="18" rx="2" fill="#0F172A"/>
+    <text x="54" y="13" class="mono-label" font-size="9" fill="#FDE047" text-anchor="middle">ISSUE NO. 18</text>
+    <text x="54" y="44" class="comic-font" font-size="24" fill="#0F172A" text-anchor="middle">RAKA</text>
+    <text x="54" y="58" class="mono-label" font-size="8.5" fill="#0F172A" text-anchor="middle">STUDIO EDITION</text>
+  </g>
+
+  <!-- Top Right: Jagged Comic Action Burst (STARBURST) - shifted right so no overlap -->
+  <g transform="translate(755, 14) rotate(8)">
+    <path d="M 55 0 L 75 22 L 105 14 L 100 45 L 132 54 L 110 78 L 132 100 L 100 110 L 105 140 L 75 132 L 55 155 L 35 132 L 5 140 L 10 110 L -22 100 L 0 78 L -22 54 L 10 45 L 5 14 L 35 22 Z"
+          fill="#0F172A" transform="translate(5, 5)"/>
+    <path d="M 55 0 L 75 22 L 105 14 L 100 45 L 132 54 L 110 78 L 132 100 L 100 110 L 105 140 L 75 132 L 55 155 L 35 132 L 5 140 L 10 110 L -22 100 L 0 78 L -22 54 L 10 45 L 5 14 L 35 22 Z"
+          fill="#FF3D71" stroke="#0F172A" stroke-width="3.5"/>
+    <text x="55" y="70" class="comic-font" font-size="21" fill="#FFFFFF" text-anchor="middle" transform="rotate(-8 55 70)">BOOM!</text>
+    <text x="55" y="88" class="comic-body" font-size="11" fill="#FEF08A" text-anchor="middle" transform="rotate(-8 55 88)">INDIE DEV</text>
+  </g>
+
+  <!-- Main Hero Title & Extrusion -->
+  <g transform="translate(152, 28)">
+    <!-- 3D Shadow layer -->
+    <text x="4" y="42" class="comic-font" font-size="40" fill="#0F172A">RAKA AMAR TARU LINTANG</text>
+    <!-- Main text layer in Electric Comic Yellow -->
+    <text x="0" y="38" class="comic-font" font-size="40" fill="#FFE600" stroke="#0F172A" stroke-width="3.5" paint-order="stroke fill">RAKA AMAR TARU LINTANG</text>
+
+    <!-- Subtitle Banner / Tape Badge -->
+    <g transform="translate(0, 52)">
+      <rect x="3" y="3" width="386" height="26" rx="6" fill="#0F172A"/>
+      <rect width="386" height="26" rx="6" fill="#00E5FF" stroke="#0F172A" stroke-width="2.5"/>
+      <text x="12" y="18" class="comic-body" font-size="13" fill="#0F172A">⚡ FRONTEND &amp; MOBILE BUILDER · CODEBYRAKASTUDIO</text>
+    </g>
+  </g>
+
+  <!-- Speech Bubble with Avatar / Sticker on the left -->
+  <g transform="translate(24, 114)">
+    <!-- Retro Comic Badge Avatar -->
+    <g transform="translate(0, 4)">
+      <rect x="4" y="4" width="108" height="48" rx="8" fill="#0F172A"/>
+      <rect width="108" height="48" rx="8" fill="#F43F5E" stroke="#0F172A" stroke-width="3"/>
+      <text x="54" y="22" class="comic-font" font-size="14" fill="#FFFFFF" text-anchor="middle">DEVELOPER</text>
+      <text x="54" y="38" class="mono-label" font-size="10" fill="#FEF08A" text-anchor="middle">DOSSIER</text>
+    </g>
+
+    <!-- Speech bubble pointing from the badge -->
+    <g transform="translate(128, 4)">
+      <!-- Bubble Shadow -->
+      <rect x="4" y="4" width="576" height="48" rx="10" fill="#0F172A"/>
+      <polygon points="-8,24 8,14 8,34" fill="#0F172A" transform="translate(4, 4)"/>
+      <!-- Bubble Main -->
+      <rect width="576" height="48" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="3"/>
+      <polygon points="-12,24 4,14 4,34" fill="#FFFFFF"/>
+      <path d="M 4 14 L -12 24 L 4 34" stroke="#0F172A" stroke-width="3" fill="none"/>
+      <text x="18" y="24" class="comic-body" font-size="13.5" fill="#0F172A">
+        "I CRAFT OFFLINE-FIRST APPS, SOCIAL GAMES &amp; TACTILE WEB INTERFACES!"
+      </text>
+      <text x="18" y="40" class="comic-body" font-size="11.5" fill="#64748B">
+        Passionate about tactile neo-brutalist UI, crisp typography, and rock-solid state.
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Strip: 4 Character Dossier / Stat Panels -->
+  <g transform="translate(24, 190)">
+    <!-- Panel 1: CLASS -->
+    <g transform="translate(0, 0)">
+      <rect x="4" y="4" width="202" height="86" rx="10" fill="#0F172A"/>
+      <rect width="202" height="86" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="3"/>
+      <path d="M 0 10 Q 0 0 10 0 L 192 0 Q 202 0 202 10 L 202 24 L 0 24 Z" fill="#FDE047" stroke="#0F172A" stroke-width="2"/>
+      <text x="10" y="16" class="comic-font" font-size="13" fill="#0F172A">ROLE / CLASS</text>
+      <text x="10" y="47" class="comic-body" font-size="14.5" fill="#0F172A">Frontend Engineer</text>
+      <text x="10" y="68" class="comic-body" font-size="12" fill="#64748B">&amp; Mobile App Builder</text>
+    </g>
+
+    <!-- Panel 2: WEAPONS (STACK) -->
+    <g transform="translate(220, 0)">
+      <rect x="4" y="4" width="216" height="86" rx="10" fill="#0F172A"/>
+      <rect width="216" height="86" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="3"/>
+      <path d="M 0 10 Q 0 0 10 0 L 206 0 Q 216 0 216 10 L 216 24 L 0 24 Z" fill="#38BDF8" stroke="#0F172A" stroke-width="2"/>
+      <text x="10" y="16" class="comic-font" font-size="13" fill="#0F172A">EQUIPPED WEAPONS</text>
+      <text x="10" y="47" class="comic-body" font-size="14" fill="#0F172A">React Native · Expo · TS</text>
+      <text x="10" y="68" class="comic-body" font-size="12" fill="#64748B">Tailwind CSS · Python</text>
+    </g>
+
+    <!-- Panel 3: SPECIAL SKILL -->
+    <g transform="translate(454, 0)">
+      <rect x="4" y="4" width="216" height="86" rx="10" fill="#0F172A"/>
+      <rect width="216" height="86" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="3"/>
+      <path d="M 0 10 Q 0 0 10 0 L 206 0 Q 216 0 216 10 L 216 24 L 0 24 Z" fill="#F472B6" stroke="#0F172A" stroke-width="2"/>
+      <text x="10" y="16" class="comic-font" font-size="13" fill="#0F172A">SPECIAL ABILITY</text>
+      <text x="10" y="47" class="comic-body" font-size="14" fill="#0F172A">Offline-First Architect</text>
+      <text x="10" y="68" class="comic-body" font-size="12" fill="#64748B">Neo-Brutalist Comic UI</text>
+    </g>
+
+    <!-- Panel 4: BASE HQ -->
+    <g transform="translate(688, 0)">
+      <rect x="4" y="4" width="180" height="86" rx="10" fill="#0F172A"/>
+      <rect width="180" height="86" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="3"/>
+      <path d="M 0 10 Q 0 0 10 0 L 170 0 Q 180 0 180 10 L 180 24 L 0 24 Z" fill="#34D399" stroke="#0F172A" stroke-width="2"/>
+      <text x="10" y="16" class="comic-font" font-size="13" fill="#0F172A">HEADQUARTERS</text>
+      <text x="10" y="47" class="comic-body" font-size="14" fill="#0F172A">Jakarta, ID</text>
+      <text x="10" y="68" class="comic-body" font-size="12" fill="#0284C7">rakaamar.site ↗</text>
+    </g>
+  </g>
+</svg>
