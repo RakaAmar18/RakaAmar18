@@ -209,7 +209,7 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
 
 <!-- coding-hours:start -->
 <details open>
-  <summary><strong>Jam terbang coding</strong></summary>
+  <summary><strong>Waktu coding</strong></summary>
   <br/>
   <div align="center">
     <img src="assets/coding-hours.png" width="700" alt="Jam coding yang terekam di laptop Raka" />
