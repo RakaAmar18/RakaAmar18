@@ -1,5 +1,5 @@
 <a href="https://rakaamar.site/">
-  <img src="assets/comic-cover.svg" width="100%" alt="Raka Amar (CodeByRakaStudio). Frontend, mobile, dan Python." />
+  <img src="assets/comic-cover.svg" width="100%" alt="Raka Amar (CodeByRakaStudio). Frontend Developer." />
 </a>
 
 # Halo, saya Raka.
@@ -214,7 +214,7 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
   <div align="center">
     <img src="assets/coding-hours.png" width="700" alt="Jam coding yang terekam di laptop Raka" />
   </div>
-  <p><sub>Waktu aktif editor dan CLI coding; idle lebih dari 2 menit tidak dihitung. Data rinci tetap privat.</sub></p>
+  <p><sub>Status pada waktu pembaruan, bukan status langsung. Data rinci tetap privat.</sub></p>
 </details>
 <!-- coding-hours:end -->
 
