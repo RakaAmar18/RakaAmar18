@@ -207,6 +207,17 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
 
 ## Catatan GitHub
 
+<!-- coding-hours:start -->
+<details open>
+  <summary><strong>Jam terbang coding</strong></summary>
+  <br/>
+  <div align="center">
+    <img src="assets/coding-hours.png" width="700" alt="Jam coding yang terekam dari aktivitas editor di laptop Raka" />
+  </div>
+  <p><sub>Mulai dihitung sejak pencatat dipasang. Waktu aktif editor, bukan perkiraan dari commit. Idle lebih dari 2 menit, layar terkunci, dan sleep tidak dihitung. Nama proyek, file, dan catatan harian tetap privat.</sub></p>
+</details>
+<!-- coding-hours:end -->
+
 <details open>
   <summary><strong>Profil & kontribusi</strong></summary>
   <br/>
