@@ -249,7 +249,7 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
   <summary><strong>Penghitung tampilan profil</strong></summary>
   <br/>
   <div align="center">
-    <img src="https://komarev.com/ghpvc/?username=RakaAmar18&label=TAYANGAN+PROFIL&color=00e5ff&style=flat-square" alt="Jumlah Tayangan Profil" />
+    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FRakaAmar18&label=TAYANGAN%20PROFIL&labelColor=%23171717&countColor=%23087F8C&style=flat-square" alt="Jumlah Tayangan Profil" />
   </div>
   <br/>
 </details>
