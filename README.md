@@ -212,9 +212,9 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
   <summary><strong>Jam terbang coding</strong></summary>
   <br/>
   <div align="center">
-    <img src="assets/coding-hours.png" width="700" alt="Jam coding yang terekam dari aktivitas editor di laptop Raka" />
+    <img src="assets/coding-hours.png" width="700" alt="Jam coding yang terekam di laptop Raka" />
   </div>
-  <p><sub>Mulai dihitung sejak pencatat dipasang. Waktu aktif editor, bukan perkiraan dari commit. Idle lebih dari 2 menit, layar terkunci, dan sleep tidak dihitung. Nama proyek, file, dan catatan harian tetap privat.</sub></p>
+  <p><sub>Waktu aktif editor dan CLI coding; idle lebih dari 2 menit tidak dihitung. Data rinci tetap privat.</sub></p>
 </details>
 <!-- coding-hours:end -->
 
