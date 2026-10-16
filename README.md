@@ -265,7 +265,7 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
   <br/>
 </details>
 
-<sub>Kartu statistik memakai layanan eksternal. Bahasa repository publik dan penghitung tampilan bukan ukuran kemampuan atau jumlah pengunjung unik.</sub>
+<sub>Jam coding berasal dari pencatat lokal; hanya ringkasannya yang dipublikasikan. Kartu kontribusi, bahasa, dan tampilan memakai layanan eksternal. Bahasa repository publik dan penghitung tampilan bukan ukuran kemampuan atau jumlah pengunjung unik.</sub>
 
 ---
 
