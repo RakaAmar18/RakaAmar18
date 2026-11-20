@@ -1,4 +1,4 @@
-<a href="https://rakaamar.site/">
+<a href="https://rakaamar.my.id/">
   <img src="assets/comic-cover.svg" width="100%" alt="Raka Amar (CodeByRakaStudio). Frontend Developer." />
 </a>
 
@@ -8,7 +8,7 @@
 
 Saya membuat aplikasi mobile, antarmuka web, dan aplikasi desktop dengan Python. Suka tampilan yang berkarakter, alur yang mudah dipahami, dan detail kecil yang membuat produk nyaman dipakai.
 
-**[Lihat portofolio ↗](https://rakaamar.site/)** · **[Hubungi saya](mailto:codebyraka.studio.id@gmail.com)**
+**[Lihat portofolio ↗](https://rakaamar.my.id/)** · **[Hubungi saya](mailto:codebyraka.studio.id@gmail.com)**
 
 ## Karya pilihan
 
@@ -271,4 +271,4 @@ Teknologi yang saya gunakan atau pelajari dalam proyek. Bukan peringkat kemampua
 
 **Ada ide yang ingin dibuat?** [Mari mengobrol](mailto:codebyraka.studio.id@gmail.com).
 
-[Website](https://rakaamar.site/) · [GitHub](https://github.com/RakaAmar18)
+[Website](https://rakaamar.my.id/) · [GitHub](https://github.com/RakaAmar18)
